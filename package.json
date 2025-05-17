@@ -1,0 +1,41 @@
+{
+  "name": "lowland",
+  "displayName": "Lowland Language Support",
+  "description": "Syntax highlighting, basic support and snippets for the Lowland language (.lowl, .lln)",
+  "version": "1.0.0",
+  "publisher": "ebaad",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+  "onLanguage:lowl",
+  "onLanguage:lln"
+  ],
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "lowland",
+        "aliases": ["Lowland", "lowl", "lln"],
+        "extensions": [".lowl", ".lln"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lowland",
+        "scopeName": "source.lowland",
+        "path": "./syntax/lowland.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "lowland",
+        "path": "./snippets/lowland.code-snippets"
+      }
+    ]
+  },
+  "main": "./extension.js",
+  "scripts": {},
+  "devDependencies": {}
+}

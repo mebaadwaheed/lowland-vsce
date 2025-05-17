@@ -1,0 +1,25 @@
+{
+  "scopeName": "source.lowland",
+  "name": "Lowland",
+  "patterns": [
+    {
+      "name": "keyword.control.lowland",
+      "match": "\\b(func|if|else|for|while|println|inputln)\\b"
+    },
+    {
+      "name": "comment.line.double-slash.lowland",
+      "match": "//.*$"
+    },
+    {
+      "name": "string.quoted.double.lowland",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.lowland",
+      "match": "\\b[0-9]+\\b"
+    }
+  ],
+  "fileTypes": ["lowl", "lln"],
+  "uuid": "12345678-1234-1234-1234-1234567890ab"
+}

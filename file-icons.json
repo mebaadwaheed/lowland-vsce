@@ -1,0 +1,11 @@
+{
+  "fileExtensions": {
+    "lowl": "lowland",
+    "lln": "lowland"
+  },
+  "icons": {
+    "lowland": {
+      "iconPath": "./images/file.svg"
+    }
+  }
+}
