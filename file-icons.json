@@ -5,7 +5,7 @@
   },
   "icons": {
     "lowland": {
-      "iconPath": "./images/file.svg"
+      "iconPath": "/images/file.svg"
     }
   }
 }
